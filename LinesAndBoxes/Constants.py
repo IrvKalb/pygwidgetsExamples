@@ -1,0 +1,29 @@
+# Constants for the Lines and Boxes game
+
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 450
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (220, 220, 220)
+FRAMES_PER_SECOND = 40
+
+NROWS = 5
+NCOLS = 5
+NSQUARES = NROWS * NCOLS
+SPACING = 43
+NLINES = 60
+
+
+EMPTY = 'empty'
+HUMAN = 'human'
+COMPUTER = 'computer'
+
+
+STARTING_X = 72
+STARTING_Y = 48
+BOX_SIZE = 45
+LINE_SIZE = 13
+BOX_AND_LINE_SIZE = BOX_SIZE + LINE_SIZE
+
+SELECT = 'select'
+NORMAL = 'normal'
