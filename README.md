@@ -9,6 +9,7 @@
  Terminal application (Mac) and run these commands:
  
  pip install pygwidgets
+ 
  pip install pyghelpers
  
  These commands will download these files and place them in the appropriate
