@@ -1,0 +1,5 @@
+- Change art to be two pictures of a python snake moving left and right
+- Change art of bug to be cars
+- Add high scores screen
+--   Should keep track of high score AND highest level reached
+- Add dialog boxes to allow user to add to high scores screen
