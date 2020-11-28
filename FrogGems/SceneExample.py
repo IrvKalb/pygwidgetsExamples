@@ -5,7 +5,6 @@
 #
 
 import pygwidgets
-import pygame
 from SceneMgr import Scene
 
 

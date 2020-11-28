@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../TargetPractice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Bug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_LinesAndBoxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main_LinesAndBoxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,106 +30,10 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main_LinesAndBoxes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Square.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Line.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>horizontalOrVertical</find>
-      <find>DARBY</find>
-      <find>human</find>
-      <find>HUMAN_SELECTED_LINE</find>
-      <find>CheckFor</find>
-      <find>COMPUTER_TURN</find>
-      <find>mLineTaken</find>
-      <find>mCheckForMakingMove</find>
-      <find>whoseTurn = HUMAN</find>
-      <find>mCompleteSquares</find>
-      <find>mCheckForCompletedSquares</find>
-      <find>display</find>
-      <find>set_timer</find>
-      <find>mMakeComputerMove</find>
-      <find>draw</find>
-      <find>STARTINGXY</find>
-      <find>startingXY</find>
-      <find>STARTINGX</find>
-      <find>New Game</find>
-      <find>score</find>
-      <find>humanScoreDisplay</find>
-      <find>Display</find>
-      <find>You win</find>
-      <find>humanGameScoreDisplay</find>
-      <find>mComputerTakesLine</find>
-      <find>Blip</find>
-      <find>computerBlipSound</find>
-      <find>applauseSound</find>
-      <find>timer</find>
-      <find>print</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>screen</replace>
-      <replace>clock</replace>
-      <replace>window</replace>
-      <replace>self.boundingLinesList</replace>
-      <replace>def</replace>
-      <replace>COMPUTER</replace>
-    </replaceStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/OO Dodger.py" />
-        <option value="$PROJECT_DIR$/OOLines And Boxes.py" />
-        <option value="$PROJECT_DIR$/Square.py" />
-        <option value="$PROJECT_DIR$/Constants.py" />
-        <option value="$PROJECT_DIR$/Line.py" />
-        <option value="$PROJECT_DIR$/OO Lines And Boxes.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1759" />
-    <option name="y" value="36" />
-    <option name="width" value="1457" />
-    <option name="height" value="978" />
-  </component>
+  <component name="ProjectId" id="1kIe3WUGRl7BzhBJdTPeaqu0lwu" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -130,28 +53,11 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LinesAndBoxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LinesAndBoxes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LinesAndBoxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -160,18 +66,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.Main_LinesAndBoxes">
     <configuration default="true" type="tests" factoryName="Attests">
@@ -257,9 +151,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Main_LinesAndBoxes" />
       <item itemvalue="Python.OO Dodger" />
       <item itemvalue="Python.OO Lines And Boxes" />
-      <item itemvalue="Python.Main_LinesAndBoxes" />
     </list>
     <recent_temporary>
       <list>
@@ -269,6 +163,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -282,96 +177,23 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1759" y="36" width="1457" height="978" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27089137" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.2497103" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2792584" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839265" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298731" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22537659" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27669346" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839265" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298731" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pygbutton.py" />
-    <entry file="file://$PROJECT_DIR$/OO Dodger.py" />
-    <entry file="file://$PROJECT_DIR$/OOLines And Boxes.py" />
-    <entry file="file://$PROJECT_DIR$/textfields.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="174" column="29" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OO Lines And Boxes.py" />
-    <entry file="file://$PROJECT_DIR$/Main_LinesAndBoxes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1614" height="202" key="GridCell.Tab.0.bottom" timestamp="1606156260587">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1614" height="202" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260587" />
+    <state width="1614" height="202" key="GridCell.Tab.0.center" timestamp="1606156260587">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1614" height="202" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260587" />
+    <state width="1614" height="202" key="GridCell.Tab.0.left" timestamp="1606156260586">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1614" height="202" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260586" />
+    <state width="1614" height="202" key="GridCell.Tab.0.right" timestamp="1606156260587">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1614" height="202" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260587" />
   </component>
   <component name="masterDetails">
     <states>

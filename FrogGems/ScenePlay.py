@@ -1,7 +1,5 @@
 #
-# This is a Blank Scene3
-#
-# This is a template for what a Scene should look like
+# This is the Play Scene
 #
 
 import pygwidgets
@@ -152,7 +150,7 @@ class ScenePlay(pyghelpers.Scene):  # Inherits from the Scene class in the Scene
                             self.score = self.score + 10
 
 
-                    # cleam the item, and see if all are gone.  If so, give bonus.
+                    # clear the item, and see if all are gone.  If so, give bonus.
                     allGone = self.oGrid.clearItem(playerRow, playerCol)
                     if allGone:
                         self.bonusSound.play()
@@ -168,6 +166,7 @@ class ScenePlay(pyghelpers.Scene):  # Inherits from the Scene class in the Scene
                 if playerRect.colliderect(bugRect):
                     self.nLives = self.nLives - 1
                     self.splatSound.play()
+                    self.oPlayer.showDead()
                     if self.nLives > 0:
                         #self.oPlayer.newRound(self.level)
                         #self.oGrid.newRound(self.level)

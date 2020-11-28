@@ -228,7 +228,6 @@ class LineMgr(object):
     def mAreAllLinesNowTaken(self, linesToCheckList):
 
         # each array of lines is a set of 4 lines surrounding a square
-        nSidesTaken = 0
         for lineNumberToCheck in linesToCheckList:
             oLine = self.linesList[lineNumberToCheck]
             bTaken = oLine.mGetTaken()
@@ -423,7 +422,6 @@ class Game:
                 lineWeightsList.append(-1000)
             else:
                 lineWeightsList.append(1000)  # High weight for line not taken
-        pass
 
         for squareNumber in range(0, NSQUARES):
             # for each square, get the set of 4 lines surrounding it

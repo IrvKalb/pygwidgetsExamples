@@ -2,13 +2,13 @@
 # This is the Splash Scene
 #
 
-import pygame
-from pygame.locals import *
 import pygwidgets
 import pyghelpers
 from Constants import *
 
 WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+BLUE = (0, 0, 200)
 
 class SceneSplash(pyghelpers.Scene):
     def __init__(self, window, sceneKey):
@@ -45,7 +45,7 @@ class SceneSplash(pyghelpers.Scene):
                                             'without getting squashed.\n\n' + \
                                             'If you grab all the gems on any screen,\n' + \
                                             'you get a bonus equal to the level number.\n\n'+ \
-                                            'Each heart you capture gives you an extra life\n\n' + \
+                                            'Every heart gives you an extra life.\n\n' + \
                                             'Good luck!', textColor=WHITE, fontSize=24, fontName='Arial')
 
 
@@ -62,7 +62,7 @@ class SceneSplash(pyghelpers.Scene):
 
     def draw(self):
         #self.backgroundImage.draw()
-        #self.dodgerImage.draw()
+        self.window.fill(BLUE)
         self.startButton.draw()
         self.quitButton.draw()
         self.highScoresButton.draw()

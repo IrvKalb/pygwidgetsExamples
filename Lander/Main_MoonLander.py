@@ -4,7 +4,6 @@ import pygame
 from pygame.locals import *
 import sys
 import random
-import math
 import pygwidgets
 import pyghelpers
 
@@ -144,7 +143,7 @@ class LandingPadMgr(object):
 
     def mGetBonus(self, whichLandingPad):
         oLandingPad = self.landingPadList[whichLandingPad]
-        bonus = oLandingPad.mGetBonus()
+        self.bonus = oLandingPad.mGetBonus()
         return self.bonus
 
     def mDraw(self):

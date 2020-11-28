@@ -4,8 +4,6 @@
 
 
 # 1 - Import packages
-import os
-import sys
 import pygame
 import pyghelpers
 

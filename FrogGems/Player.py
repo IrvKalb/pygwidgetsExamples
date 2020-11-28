@@ -15,7 +15,9 @@ class Player():
         self.hOffset = 10  # horizontal pixels to offset frog to be in center of cell
         self.vOffset = 13  # vertical pixels to offset frog to be in center of cell
 
-        self.image = pygwidgets.Image(self.window, (0, 0), 'images/frog.png')
+        self.image = pygwidgets.ImageCollection(window, (0, 0),
+                                {'alive':'images/frog.png', 'dead':'images/frogDead.png'}, 'alive')
+
         self.newRound(1)
         
     def setLocFromRowCol(self):
@@ -27,6 +29,7 @@ class Player():
         self.row = random.choice([self.maxRow - 1, self.maxRow])
         self.col = random.choice(range(0, self.maxCol))
         self.setLocFromRowCol()
+        self.image.replace('alive')
 
     def handleEvent(self, event):
         if event.type == pygame.KEYDOWN:
@@ -45,7 +48,9 @@ class Player():
                     self.row = self.row + 1
             #print(self.row, self.col)
             self.setLocFromRowCol()
-            
+
+    def showDead(self):
+        self.image.replace('dead')
 
     def getRect(self):
         return self.image.getRect()

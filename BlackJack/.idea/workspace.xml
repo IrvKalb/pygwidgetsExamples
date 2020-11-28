@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84463962-3611-4ed2-9c9a-b3c4aee35a99" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="84463962-3611-4ed2-9c9a-b3c4aee35a99" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../TargetPractice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Bug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/Main_LinesAndBoxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/Main_LinesAndBoxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/Square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,19 +29,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main_BlackJack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -61,19 +67,10 @@
       <replace>getTotal</replace>
     </replaceStrings>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/OO BlackJack.py" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2024" />
-    <option name="y" value="53" />
-    <option name="width" value="1576" />
-    <option name="height" value="985" />
-  </component>
+  <component name="ProjectId" id="1khbE6WbCg2ge09AvVZ70sZBuMJ" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -93,40 +90,15 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BlackJack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackJack" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.Main_BlackJack">
     <configuration default="true" type="tests" factoryName="Attests">
@@ -197,6 +169,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -210,28 +183,23 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="2024" y="53" width="1576" height="985" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2488746" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47652733" weight="0.29655173" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48730963" weight="0.3988764" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.52347267" side_tool="true" visible="true" weight="0.29655173" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="WindowStateProjectService">
+    <state width="802" height="224" key="GridCell.Tab.0.bottom" timestamp="1606155855087">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="802" height="224" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155855087" />
+    <state width="802" height="224" key="GridCell.Tab.0.center" timestamp="1606155855086">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="802" height="224" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155855086" />
+    <state width="802" height="224" key="GridCell.Tab.0.left" timestamp="1606155855086">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="802" height="224" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155855086" />
+    <state width="802" height="224" key="GridCell.Tab.0.right" timestamp="1606155855087">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="802" height="224" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155855087" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,16 +218,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pygwidgets.py" />
-    <entry file="file://$PROJECT_DIR$/OO BlackJack.py" />
-    <entry file="file://$PROJECT_DIR$/Main_BlackJack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

@@ -5,7 +5,6 @@
 
 # 1 - Import packages
 import os
-import sys
 # The next line is here just in case you are running from the command line
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 

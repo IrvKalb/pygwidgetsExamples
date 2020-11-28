@@ -1,10 +1,8 @@
 # Bug class
 
-import pygame
 from Constants import *
 import pygwidgets
 import random
-from pygame.locals import *
 
 MOVE_LR = 'Left to Right'
 MOVE_RL = 'Right to Left'
@@ -27,7 +25,7 @@ class Bug():
         print('level', level, '    speed is:', self.speed)
 
     def resetLoc(self):
-        # randomly decide if the bug will move left to right, or right to lefty
+        # randomly decide if the bug will move left to right, or right to left
         zeroOrOne = random.randrange(0, 2)
         if zeroOrOne == 0:
             self.direction = MOVE_LR

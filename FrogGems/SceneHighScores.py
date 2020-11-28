@@ -2,9 +2,6 @@
 # This the High Scores Scene
 #
 
-import pygame
-import sys
-from pygame.locals import *
 import pygwidgets
 import pyghelpers
 from Constants import *
@@ -58,7 +55,7 @@ class SceneHighScores(pyghelpers.Scene):
         self.window = window
         self.sceneKey = sceneKey
 
-        return  # temp
+        return  # temporary, until I build out the high scores scene
 
         self.backgroundImage = pygwidgets.Image(self.window, (0, 0), "images/highScoresBackground.jpg")
 
