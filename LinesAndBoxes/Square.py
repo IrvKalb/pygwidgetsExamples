@@ -1,6 +1,5 @@
 # Square
 
-import pygame
 from Constants import *
 
 class Square(object):
