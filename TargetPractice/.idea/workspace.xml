@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806fe280-96e9-43b5-9a20-7a3f706e0ebc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/Bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Bug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/.idea/Lander.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/Lander.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/Main_LinesAndBoxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/Main_LinesAndBoxes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/Square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TargetPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TargetPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main_Target_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main_Target_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScenePlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SceneScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneScore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneSplash.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,39 +157,6 @@
       <updated>1557075382495</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1367" height="130" key="GridCell.Tab.0.bottom" timestamp="1606155888905">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1614" height="120" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605403022475" />
-    <state width="1367" height="130" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155888905" />
-    <state width="1367" height="130" key="GridCell.Tab.0.center" timestamp="1606155888905">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1614" height="120" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605403022474" />
-    <state width="1367" height="130" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155888905" />
-    <state width="1367" height="130" key="GridCell.Tab.0.left" timestamp="1606155888904">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1614" height="120" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605403022474" />
-    <state width="1367" height="130" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155888904" />
-    <state width="1367" height="130" key="GridCell.Tab.0.right" timestamp="1606155888905">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1614" height="120" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605403022475" />
-    <state width="1367" height="130" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155888905" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main_Target_Practice.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

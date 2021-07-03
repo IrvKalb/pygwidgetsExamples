@@ -11,11 +11,13 @@ from Constants import *
 
 
 class ScenePlay(pyghelpers.Scene):
-    def __init__(self, window, sceneKey):
+    def __init__(self, window):
         self.window = window
-        self.sceneKey = sceneKey
         self.backgroundImage = pygwidgets.Image(self.window, (0, 0), "images/gridBG.png")
         self.oGame = Game(window, WINDOW_WIDTH, WINDOW_HEIGHT)
+
+    def getSceneKey(self):
+        return SCENE_PLAY
 
     def enter(self, data):
         self.oGame.reset()

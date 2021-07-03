@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e508a7a-6205-4681-b231-9f2790b9938f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TargetPractice/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled folder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main_FrogGems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneExample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneHighScores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScenePlay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneSplash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bugLR.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bugLR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/.idea/Lander.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/Lander.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lander/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/Main_LinesAndBoxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/Main_LinesAndBoxes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,44 +141,6 @@
       <updated>1564250807868</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1554" height="185" key="GridCell.Tab.0.bottom" timestamp="1606155861313">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1554" height="185" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605589240413" />
-    <state width="1554" height="185" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155861313" />
-    <state width="1554" height="185" key="GridCell.Tab.0.center" timestamp="1606155861312">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1554" height="185" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605589240413" />
-    <state width="1554" height="185" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155861312" />
-    <state width="1554" height="185" key="GridCell.Tab.0.left" timestamp="1606155861312">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1554" height="185" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605589240412" />
-    <state width="1554" height="185" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155861312" />
-    <state width="1554" height="185" key="GridCell.Tab.0.right" timestamp="1606155861312">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1554" height="185" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605589240413" />
-    <state width="1554" height="185" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1606155861312" />
-    <state width="1498" height="292" key="GridCell.Tab.1.bottom" timestamp="1605471227938">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1498" height="292" key="GridCell.Tab.1.bottom/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605471227938" />
-    <state width="1498" height="292" key="GridCell.Tab.1.center" timestamp="1605471227938">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1498" height="292" key="GridCell.Tab.1.center/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605471227938" />
-    <state width="1498" height="292" key="GridCell.Tab.1.left" timestamp="1605471227937">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1498" height="292" key="GridCell.Tab.1.left/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605471227937" />
-    <state width="1498" height="292" key="GridCell.Tab.1.right" timestamp="1605471227938">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1498" height="292" key="GridCell.Tab.1.right/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1605471227938" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -50,11 +50,11 @@ class Bin():
 
         self.left = COLUMN_LEFT_START + (self.id * COLUMN_OFFSET)
         self.oBinLabel = pygwidgets.DisplayText(window, (self.left + 3, BAR_BOTTOM + 12), str(self.id), \
-                        fontName='arial', fontSize=24, textColor=BLACK, width=20, justified='center')
+                        fontName='arial', fontSize=24, textColor=BLACK, width=25, justified='center')
         self.oBinCount = pygwidgets.DisplayText(window, (self.left - 5, BAR_BOTTOM + 36), '', \
-                        fontName='arial', fontSize=18, textColor=BLACK, width=40, justified='center')
-        self.oBinPercent = pygwidgets.DisplayText(window, (self.left - 5, BAR_BOTTOM + 55), '', \
-                        fontName='arial', fontSize=18, textColor=BLACK, width=40, justified='center')
+                        fontName='arial', fontSize=18, textColor=BLACK, width=45, justified='center')
+        self.oBinPercent = pygwidgets.DisplayText(window, (self.left - 5, BAR_BOTTOM + 50), '', \
+                        fontName='arial', fontSize=18, textColor=BLACK, width=50, justified='center')
         self.changeNumberOfTrials(nRounds)
 
         self.reset()

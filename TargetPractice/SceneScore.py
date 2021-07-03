@@ -9,10 +9,9 @@ import sys
 
 
 class SceneScore(pyghelpers.Scene):
-    def __init__(self, window, sceneKey):
-        # Save window and sceneKey in instance variables
+    def __init__(self, window):
+        # Save window in instance variables
         self.window = window
-        self.sceneKey = sceneKey
 
         self.backgroundImage = pygwidgets.Image(self.window, (0, 0), "images/gridBG.png")
         self.dialogImage = pygwidgets.Image(self.window, (150, 30), "images/score.jpg")
@@ -25,6 +24,9 @@ class SceneScore(pyghelpers.Scene):
         self.missesField = pygwidgets.DisplayText(self.window, (500, 278), '', fontSize=30)
         self.missedTargetsField = pygwidgets.DisplayText(self.window, (500, 306), '', fontSize=30)
         self.scoreField = pygwidgets.DisplayText(self.window, (500, 362), '', fontSize=30)
+
+    def getSceneKey(self):
+        return SCENE_SCORE
 
     def enter(self, data):
         # Expects a list of

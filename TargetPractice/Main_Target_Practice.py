@@ -24,19 +24,17 @@ pygame.init()
 window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 
 # 4 - Load assets: image(s), sounds,  etc.
-# Create instances of all scenes.  Specify the window and
-# a unique scene key (string) for each scene (stored in Constants.py)
-oSplashScene = SceneSplash(window, SCENE_SPLASH)
-oPlayScene = ScenePlay(window, SCENE_PLAY)
-oScoreScene = SceneScore(window, SCENE_SCORE)
-
+# Create instances of all scenes.  Specify the window for each scene
+oSplashScene = SceneSplash(window)
+oPlayScene = ScenePlay(window)
+oScoreScene = SceneScore(window)
 
 # 5 - Initialize variables
-# Build a dictionary of all scenes
-scenesDict = {SCENE_SPLASH: oSplashScene, SCENE_PLAY:oPlayScene, SCENE_SCORE:oScoreScene}
+# Build a list of all scenes
+scenesList = [oSplashScene, oPlayScene, oScoreScene]
 
-# Create the Scene Manager, passing in the scenes dictionary, the starting scene, and the FPS
-oSceneMgr = pyghelpers.SceneMgr(scenesDict, SCENE_SPLASH, FRAMES_PER_SECOND)  #
+# Create the Scene Manager, passing in the scenes list, the starting scene, and the FPS
+oSceneMgr = pyghelpers.SceneMgr(scenesList, FRAMES_PER_SECOND)  #
 
 # Tell the scene manager to start running
 print('Start')

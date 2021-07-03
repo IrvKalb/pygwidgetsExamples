@@ -72,7 +72,7 @@ class MyScene(Scene):  # Inherits from the Scene class in the SceneMgr file
 
     def leave(self):
         '''
-        This method is called once when your code has asked to move on to a new scene
+        This method is called when your code has asked to move on to a new scene
         It should return any data that this scene wants to pass on to the next scene
         The typical data is either None or a dictionary.
         :param self:
