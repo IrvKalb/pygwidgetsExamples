@@ -1,7 +1,7 @@
 #  Hangman Game by Irv Kalb  1/17
 
 import pygame
-from pygame.locals import *
+#from pygame.locals import *
 import sys
 import random
 import pygwidgets
@@ -125,6 +125,7 @@ class ChooseLetter():
         self.loc = (theLeft, theTop)
         self.myRect = pygame.Rect(theLeft, theTop, theWidth, theHeight)
         self.oButton = pygwidgets.TextButton(window, self.loc, self.myLetter, width=theWidth, height=theHeight, fontSize=24)
+        self.available = True
         self.reset()
 
     def reset(self):
@@ -162,16 +163,16 @@ class ChooseLetterMgr():
         self.chooseLetterList = []
         left = ChooseLetterMgr.LETTER_X
         for letter in alphabet1:
-            oLetter = ChooseLetter(self.window, letter, \
-                                   left, ChooseLetterMgr.LETTER1_Y, \
+            oLetter = ChooseLetter(self.window, letter,
+                                   left, ChooseLetterMgr.LETTER1_Y,
                                    ChooseLetterMgr.LETTER_WIDTH, ChooseLetterMgr.LETTER_HEIGHT)
             self.chooseLetterList.append(oLetter)
             left = left + ChooseLetterMgr.LETTER_SPACING
 
         left = ChooseLetterMgr.LETTER_X
         for letter in alphabet2:
-            oLetter = ChooseLetter(self.window, letter, \
-                                   left, ChooseLetterMgr.LETTER2_Y, \
+            oLetter = ChooseLetter(self.window, letter,
+                                   left, ChooseLetterMgr.LETTER2_Y,
                                    ChooseLetterMgr.LETTER_WIDTH, ChooseLetterMgr.LETTER_HEIGHT)
             self.chooseLetterList.append(oLetter)
             left = left + ChooseLetterMgr.LETTER_SPACING
@@ -183,7 +184,7 @@ class ChooseLetterMgr():
     def checkLetters(self, event):
         for oLetter in self.chooseLetterList:
             letterOrNone = oLetter.wasClicked(event)
-            if letterOrNone != None:
+            if letterOrNone is not None:
                 return letterOrNone
 
         return None  # no letter was clicked on
@@ -214,6 +215,7 @@ class GameMgr():
             thisImage = pygame.image.load('images/man' + str(number) + '.png')
             self.manImageList.append(thisImage)
         self.manLoc = (480, 164)
+        self.nGuesses = 0
 
         self.reset() # set up for first game
 
@@ -227,7 +229,7 @@ class GameMgr():
 
     def checkLetters(self, event):
         letterOrNone = self.oChooseLetterMgr.checkLetters(event)
-        if letterOrNone !=None:
+        if letterOrNone is not None:
             matchedAtLeastOne = self.oAnswerLetterMgr.match(letterOrNone)
             if matchedAtLeastOne:
                 dingSound.play()
@@ -266,7 +268,7 @@ applauseSound = pygame.mixer.Sound('sounds/applause.wav')
 buzzSound = pygame.mixer.Sound('sounds/buzz.wav')
 dingSound = pygame.mixer.Sound('sounds/ding.wav')
 doneSound = pygame.mixer.Sound('sounds/done.wav')
-newGameButton = pygwidgets.CustomButton(window, (475, 750),\
+newGameButton = pygwidgets.CustomButton(window, (475, 750),
                 up='images/newGame.png', over='images/newGameOver.png', down='images/newGameDown.png')
 
 
@@ -283,7 +285,7 @@ while True:
         if  newGameButton.handleEvent(event):
              oGameMgr.reset()
 
-        letterClicked = oGameMgr.checkLetters(event)
+        oGameMgr.checkLetters(event)
 
 
     # Draw everything
