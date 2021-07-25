@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../TargetPractice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/Bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Bug.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/images/bugLR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/Main_MoonLander.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_LinesAndBoxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main_LinesAndBoxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/OO Dodger from Al.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/Main_Target_Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +155,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OO Dodger from Al" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Square.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Main_LinesAndBoxes" />
       <item itemvalue="Python.OO Dodger" />
       <item itemvalue="Python.OO Lines And Boxes" />
+      <item itemvalue="Python.Square" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main_LinesAndBoxes" />
+        <item itemvalue="Python.Square" />
         <item itemvalue="Python.OO Lines And Boxes" />
         <item itemvalue="Python.OO Dodger" />
       </list>
@@ -176,24 +204,6 @@
       <updated>1484092521848</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1614" height="202" key="GridCell.Tab.0.bottom" timestamp="1606156260587">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1614" height="202" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260587" />
-    <state width="1614" height="202" key="GridCell.Tab.0.center" timestamp="1606156260587">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1614" height="202" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260587" />
-    <state width="1614" height="202" key="GridCell.Tab.0.left" timestamp="1606156260586">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1614" height="202" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260586" />
-    <state width="1614" height="202" key="GridCell.Tab.0.right" timestamp="1606156260587">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1614" height="202" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@0.23.1792.1097" timestamp="1606156260587" />
   </component>
   <component name="masterDetails">
     <states>

@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806fe280-96e9-43b5-9a20-7a3f706e0ebc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/.idea/Lander.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/Lander.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lander/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TargetPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TargetPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/OO Dodger from Al.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/OO Dodger from Al.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlotMachine/.idea/SlotMachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlotMachine/.idea/SlotMachine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlotMachine/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlotMachine/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlotMachine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlotMachine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_Target_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main_Target_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScenePlay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SceneScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneScore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/SceneSplash.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

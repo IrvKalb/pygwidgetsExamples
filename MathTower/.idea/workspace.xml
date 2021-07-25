@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/OO Dodger from Al.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinesAndBoxes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,19 +34,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OO MathTower.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -66,6 +77,9 @@
       <replace>COMPUTER</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,6 +99,7 @@
     <option name="width" value="1168" />
     <option name="height" value="844" />
   </component>
+  <component name="ProjectId" id="1vWFDBqr6NHTRMlzlTjdOkYsjcV" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -104,6 +119,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,7 +129,14 @@
       <pane id="ProjectPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -121,19 +144,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.OO MathTower">
+  <component name="RunManager" selected="Python.Main_MathTower">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,6 +163,27 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="Main_MathTower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OO Dodger from Al" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main_MathTower.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="OO Dodger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OO Dodger from Al" />
@@ -255,6 +287,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -264,15 +297,18 @@
       <item itemvalue="Python.OO Dodger" />
       <item itemvalue="Python.OO Lines And Boxes" />
       <item itemvalue="Python.OO MathTower" />
+      <item itemvalue="Python.Main_MathTower" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main_MathTower" />
         <item itemvalue="Python.OO MathTower" />
         <item itemvalue="Python.OO Lines And Boxes" />
         <item itemvalue="Python.OO Dodger" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

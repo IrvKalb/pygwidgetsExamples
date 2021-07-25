@@ -11,10 +11,9 @@ BLACK = (0, 0, 0)
 BLUE = (0, 0, 200)
 
 class SceneSplash(pyghelpers.Scene):
-    def __init__(self, window, sceneKey):
-        # Save window and sceneKey in instance variables
+    def __init__(self, window):
+        # Save window ain instance variable
         self.window = window
-        self.sceneKey = sceneKey
 
         #self.backgroundImage = pygwidgets.Image(self.window, (0, 0), "images/splashBackground.jpg")
         #self.frogGemsImage = pygwidgets.Image(self.window, (150, 30), "images/fromGems.png")
@@ -47,6 +46,9 @@ class SceneSplash(pyghelpers.Scene):
                                             'you get a bonus equal to the level number.\n\n'+ \
                                             'Every heart gives you an extra life.\n\n' + \
                                             'Good luck!', textColor=WHITE, fontSize=24, fontName='Arial')
+
+    def getSceneKey(self):
+        return SCENE_SPLASH
 
 
     def handleInputs(self, events, keyPressedList):

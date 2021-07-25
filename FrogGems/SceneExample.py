@@ -9,7 +9,7 @@ from SceneMgr import Scene
 
 
 class MyScene(Scene):  # Inherits from the Scene class in the SceneMgr file
-    def __init__(self, window, sceneKey):
+    def __init__(self, window):
         '''
         This method is called when the scene is created
         Create and/or load any assets (images, buttons, sounds)
@@ -19,10 +19,12 @@ class MyScene(Scene):  # Inherits from the Scene class in the SceneMgr file
         '''
         # Save window and sceneKey in instance variables
         self.window = window
-        self.sceneKey = sceneKey
 
         # As a sample, let's create a button
         self.navButton = pygwidgets.TextButton(self.window, (300, 230), 'Navigate')
+
+    def getSceneKey(self):
+        return 'SOME CONSTANT REPRESENTING THIS SCENE'
 
 
     def enter(self, data):

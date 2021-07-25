@@ -50,10 +50,9 @@ class SceneHighScores(pyghelpers.Scene):
     DATA_FILE_PATH = 'HighScores.txt'
     N_HIGH_SCORES = 10
     
-    def __init__(self, window, sceneKey):
-        # Save window and sceneKey in instance variables
+    def __init__(self, window):
+        # Save window  in instance variable
         self.window = window
-        self.sceneKey = sceneKey
 
         return  # temporary, until I build out the high scores scene
 
@@ -114,6 +113,9 @@ class SceneHighScores(pyghelpers.Scene):
 
         pyghelpers.writeFile(SceneHighScores.DATA_FILE_PATH, json.dumps(self.scoresList))
         self.showHighScores()
+
+    def getSceneKey(self):
+        return SCENE_HIGH_SCORES
 
     def enter(self, data):
         # This can be called two different ways:

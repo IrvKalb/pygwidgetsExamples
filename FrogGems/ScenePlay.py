@@ -17,17 +17,15 @@ class ScenePlay(pyghelpers.Scene):  # Inherits from the Scene class in the Scene
     STATE_PLAYING = 'state playing'
     STATE_ROUND_OVER = 'state round over'
 
-    def __init__(self, window, sceneKey):
+    def __init__(self, window):
         '''
         This method is called when the scene is created
         Create and/or load any assets (images, buttons, sounds)
         that you need for this scene
         :param window:
-        :param sceneKey:
         '''
-        # Save window and sceneKey in instance variables
+        # Save window in instance variable
         self.window = window
-        self.sceneKey = sceneKey
 
         # 4 - Load assets: image(s), sounds,  etc.
         self.oGrid = Grid(window)
@@ -63,6 +61,9 @@ class ScenePlay(pyghelpers.Scene):  # Inherits from the Scene class in the Scene
             oBug = Bug(self.window, i)
             self.bugList.append(oBug)
         self.state = ScenePlay.STATE_PLAYING
+
+    def getSceneKey(self):
+        return SCENE_PLAY
 
     def enter(self, data):
         '''
