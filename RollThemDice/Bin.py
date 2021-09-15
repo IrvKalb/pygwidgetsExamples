@@ -1,8 +1,6 @@
 #  Roll Them Dice
 
 import pygame
-import random
-import sys
 import pygwidgets
 from pygame.locals import *
 
