@@ -2,12 +2,12 @@
 WINDOW_WIDTH = 540
 WINDOW_HEIGHT = 620
 
-N_ROWS = 15  #15
-N_COLS = 15  #15
-N_MINES = 30  #30
+N_ROWS = 15
+N_COLS = 15
+N_MINES = 30
 CELL_WIDTH_HEIGHT = 36
 
-MINE = 'mine'
+MINE = 'mine'  # Mine
 FLAGGED = 'flagged a cell'
 UNFLAGGED = 'unflagged a cell'
 GAME_OVER = 'game over'

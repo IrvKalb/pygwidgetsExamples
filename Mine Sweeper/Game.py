@@ -82,6 +82,13 @@ class Game():
             if event.key == pygame.K_ESCAPE:
                 self.helperMode = not self.helperMode  #  Cheat code!
 
+            if event.key == pygame.K_0:
+                for row in range(N_ROWS):
+                    for col in range(N_COLS):
+                        oCell = self.board[row][col]
+                        print(oCell.getValue(), end='')
+                    print('\n')
+
         if event.type == MOUSEBUTTONDOWN:
             if self.gameOver:
                 return
@@ -124,6 +131,8 @@ class Game():
 
 
     def checkForWin(self):
+        if self.nMinesLeft != 0:
+            return  # Not cleared all mines
         for rowIndex in range(0, N_ROWS):
             for colIndex in range(0, N_COLS):
                 oCell = self.board[rowIndex][colIndex]
