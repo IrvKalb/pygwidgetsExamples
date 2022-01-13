@@ -13,8 +13,7 @@ class Game():
         self.window = window
 
         # Instance variables:
-        self.nMinesLeft = 0
-        self.clickedInCell = False
+        self.nMinesLeft = N_MINES
         self.gameOver = False
         self.timerRunning = False
         self.firstClick = True
@@ -22,17 +21,20 @@ class Game():
         # Toggles with esc key.  When on, plays sound on flagging mines
         self.helperMode = False
 
-        self.oMinesLabel = pygwidgets.DisplayText(self.window, (20, 570),
+        self.oMinesLabel = pygwidgets.DisplayText(self.window, (20, 560),
                                                   'Mines left:', fontSize=36)
-        self.oMinesLeftDisplay = pygwidgets.DisplayText(self.window, (150, 570),
+        self.oMinesLeftDisplay = pygwidgets.DisplayText(self.window, (150, 560),
                                                     str(N_MINES), fontSize=36, justified='left')
 
-        self.oRestartButton = pygwidgets.TextButton(self.window, (235, 560), 'Restart')
+        self.oRestartButton = pygwidgets.TextButton(self.window, (235, 550), 'Restart')
         self.oTimer = pyghelpers.CountUpTimer()
-        self.oTimeLabel = pygwidgets.DisplayText(self.window, (380, 570),
+        self.oTimeLabel = pygwidgets.DisplayText(self.window, (380, 560),
                                                     'Time: ', fontSize = 36)
-        self.oTimeDisplay = pygwidgets.DisplayText(self.window, (452, 570),
+        self.oTimeDisplay = pygwidgets.DisplayText(self.window, (452, 560),
                                                     '0', fontSize = 36, justified='left')
+        self.oDirectionsDisplay = pygwidgets.DisplayText(self.window, (0, 600),
+                                                    '(Click to reveal, right click to flag as a mine)',
+                                                    width=WINDOW_WIDTH, fontSize = 18, justified='center')
         self.applauseSound = pygame.mixer.Sound('sounds/applause.wav')
 
         # Build the board as a two dimensional list of Cell objects
@@ -82,23 +84,37 @@ class Game():
             if event.key == pygame.K_ESCAPE:
                 self.helperMode = not self.helperMode  #  Cheat code!
 
-            if event.key == pygame.K_0:
+            if event.key == pygame.K_0:  # for debugging, print out the board
+                print('--- Board ------')
                 for row in range(N_ROWS):
                     for col in range(N_COLS):
                         oCell = self.board[row][col]
-                        print(oCell.getValue(), end='')
-                    print('\n')
+                        value = oCell.getValue()
+                        if value == MINE:
+                            value = 'm'  # for easier reading
+                        print(value, end='')
+                    print()
 
         if event.type == MOUSEBUTTONDOWN:
             if self.gameOver:
                 return
+            eventPos = event.pos
             for rowIndex in range(0, N_ROWS):
                 for colIndex in range(0, N_COLS):
                     oCellClicked = self.board[rowIndex][colIndex]
-                    self.clickedInCell = oCellClicked.handleEvent(event)
-                    if not self.clickedInCell:
+                    clickedInCell = oCellClicked.clickedInside(eventPos)
+                    if not clickedInCell:
                         continue  # nothing to do
                     # Got a click in a cell
+                    if event.button == 1:
+                        leftOrRight = LEFT_CLICK
+                    elif event.button == 3:
+                        leftOrRight = RIGHT_CLICK
+                    else:
+                        continue  # don't care
+                    if (leftOrRight == RIGHT_CLICK) and self.firstClick:
+                        return  # ignore right clicks until mines set
+
                     if self.firstClick:
                         # Only place mines on the first click
                         self.placeMines(rowIndex, colIndex)
@@ -106,26 +122,35 @@ class Game():
                         self.oTimer.start()
                         self.timerRunning = True
                         self.firstClick = False
-                    result = oCellClicked.handleClick(event, self.helperMode)
-                    if result == GAME_OVER:
+
+                    result = oCellClicked.handleClick(leftOrRight, self.helperMode)
+                    if result == HIT_MINE:
+                        Cell.explosionSound.play()
                         self.gameOver = True
                         for row in range(0, N_ROWS):
                             for col in range(0, N_COLS):
                                 oCell = self.board[row][col]
-                                oCell.showIfMine(False)  # show black mines
-                        oCellClicked.showIfMine(True)  # show red mine that ended the game
+                                oCell.showIfMine(UNEXPLODED)  # show black mines
+                        oCellClicked.showIfMine(EXPLODED)  # show red mine that ended the game
                         self.oTimer.stop()
                         return
-                    elif result == FLAGGED:
-                        self.nMinesLeft = self.nMinesLeft - 1
-                    elif result == UNFLAGGED:
-                        self.nMinesLeft = self.nMinesLeft + 1
+
                     elif result == REVEALED_CELL:
                         self.revealNeighbors(oCellClicked)
-                    elif result == ALREADY_REVEALED:
-                        return  # nothing to do
+
+                    elif result is None:
+                        pass
+
                     else:
                         raise ValueError('Unexpected result from click: ' + str(result))
+
+            nFlags = 0
+            for rowIndex in range(0, N_ROWS):
+                for colIndex in range(0, N_COLS):
+                    oCell = self.board[rowIndex][colIndex]
+                    if oCell.isFlagged():
+                        nFlags = nFlags + 1
+            self.nMinesLeft = N_MINES - nFlags
 
             self.checkForWin()
 
@@ -202,3 +227,4 @@ class Game():
         self.oRestartButton.draw()
         self.oTimeLabel.draw()
         self.oTimeDisplay.draw()
+        self.oDirectionsDisplay.draw()

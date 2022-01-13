@@ -7,7 +7,7 @@ from Constants import *
 class Cell():
     tile = pygame.image.load('images/tile.jpg')
     mine = pygame.image.load('images/mine.jpg')
-    mineShow = pygame.image.load('images/mineShow.jpg')
+    mineExploded = pygame.image.load('images/mineExploded.jpg')
     flag = pygame.image.load('images/flag.jpg')
     zero = pygame.image.load('images/0.jpg')
     one = pygame.image.load('images/1.jpg')
@@ -18,7 +18,7 @@ class Cell():
     six = pygame.image.load('images/6.jpg')
     seven = pygame.image.load('images/7.jpg')
     eight = pygame.image.load('images/8.jpg')
-    imagesDict = {'tile':tile, 'mine':mine, 'mineShow':mineShow, 'flag':flag, \
+    imagesDict = {'tile':tile, 'mine':mine, 'mineExploded':mineExploded, 'flag':flag,
                          0:zero, 1:one, 2:two, 3:three, 4:four, 5:five, 6:six, 7:seven, 8:eight}
     flagSound = None
     unFlagSound = None
@@ -72,8 +72,8 @@ class Cell():
         self.value = None
         self.images.replace('tile')
 
-    def handleEvent(self, event):
-        if self.rect.collidepoint(event.pos):
+    def clickedInside(self, pos):
+        if self.rect.collidepoint(pos):
             return True
         else:
             return False
@@ -81,22 +81,21 @@ class Cell():
     def getNeighbors(self):
         return self.neighborsList
 
-    def handleClick(self, event, allowHelp):
+    def handleClick(self, leftOrRightClick, allowHelp):
         if self.revealed:
-            return ALREADY_REVEALED  # already showing
-        if event.button == 1: # Left mouse button
+            return None # already showing
+        if leftOrRightClick == LEFT_CLICK: # Left mouse button
             #print('Hit cell', self.rowIndex, self.colIndex)
             if self.flagged:
-                return ALREADY_REVEALED  # Must "unflag" before revealing
+                return None  # Must "unflag" before revealing
             self.revealed = True
             self.images.replace(self.value)
             if self.value == MINE:
-                Cell.explosionSound.play()
-                return GAME_OVER  # game is over
+                return HIT_MINE  # game is over
             Cell.revealSound.play()
             return REVEALED_CELL
 
-        elif event.button == 3:  # Right mouse button
+        elif leftOrRightClick == RIGHT_CLICK:  # Right mouse button
             self.flagged = not self.flagged
             if self.flagged:
                 self.images.replace('flag')
@@ -108,12 +107,11 @@ class Cell():
                     else:
                         Cell.buzzSound.play()
 
-                return FLAGGED
+                return None
             else:
                 self.images.replace('tile')
                 Cell.unFlagSound.play()
-                return UNFLAGGED
-        print('NOT SURE WHAT TO RETURN HERE')
+                return None
 
     def getValue(self):
         return self.value
@@ -147,12 +145,15 @@ class Cell():
             self.revealed = True
             self.images.replace(self.value)
 
-    def showIfMine(self, killer):
+    def showIfMine(self, mineType):
         if self.value == MINE:
-            if killer:
+            if mineType == UNEXPLODED:
                 self.images.replace('mine')
             else:
-                self.images.replace('mineShow')
+                self.images.replace('mineExploded')
+
+    def isFlagged(self):
+        return self.flagged
 
     def draw(self):
         self.images.draw()
