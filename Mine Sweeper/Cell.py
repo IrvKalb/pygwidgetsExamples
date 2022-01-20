@@ -81,15 +81,24 @@ class Cell():
     def getNeighbors(self):
         return self.neighborsList
 
-    def handleClick(self, leftOrRightClick, allowHelp):
+    def handleClick(self, leftOrRightClick, debug):
         if self.revealed:
             return None # already showing
         if leftOrRightClick == LEFT_CLICK: # Left mouse button
             #print('Hit cell', self.rowIndex, self.colIndex)
             if self.flagged:
                 return None  # Must "unflag" before revealing
+
+            if debug:  # Debugging, check if the cell is a mine
+                if self.value == MINE:
+                    Cell.dingSound.play()
+                else:
+                    Cell.buzzSound.play()
+                return  # End debugging
+
             self.revealed = True
             self.images.replace(self.value)
+
             if self.value == MINE:
                 return HIT_MINE  # game is over
             Cell.revealSound.play()
@@ -101,16 +110,11 @@ class Cell():
                 self.images.replace('flag')
                 Cell.flagSound.play()
                 # Used during development to test if flagged a mine correctly
-                if allowHelp:
-                    if self.value == MINE:
-                        Cell.dingSound.play()
-                    else:
-                        Cell.buzzSound.play()
 
-                return None
             else:
                 self.images.replace('tile')
                 Cell.unFlagSound.play()
+                self.revealed = False
                 return None
 
     def getValue(self):
@@ -121,7 +125,7 @@ class Cell():
 
     def isRevealable(self):
         """Returns False if cell is already revealed, a mine or a flag, otherwise True to say revealable"""
-        if self.revealed:
+        if self.revealed or self.flagged:
             return False
         if self.value in [0, 1, 2, 3, 4, 5, 6, 7, 8]:
             return True
@@ -141,8 +145,16 @@ class Cell():
         else:
             return False
 
+    def __str__(self):
+        output = 'Cell ' + str(self.rowIndex) + ', ' + str(self.colIndex) + '\n' + \
+                        '    self.value ' + str(self.value) + '\n' + \
+                        '    self.flagged ' + str(self.flagged) + '\n' + \
+                        '    self.revealed ' + str(self.revealed) + '\n'
+        return output
+
     def reveal(self):
             self.revealed = True
+            self.flagged = False
             self.images.replace(self.value)
 
     def showIfMine(self, mineType):

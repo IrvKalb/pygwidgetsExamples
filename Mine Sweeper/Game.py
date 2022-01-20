@@ -13,13 +13,13 @@ class Game():
         self.window = window
 
         # Instance variables:
-        self.nMinesLeft = N_MINES
+        self.nMinesFlagged = 0
         self.gameOver = False
         self.timerRunning = False
         self.firstClick = True
         self.gameOver = False
         # Toggles with esc key.  When on, plays sound on flagging mines
-        self.helperMode = False
+        self.debug = False
 
         self.oMinesLabel = pygwidgets.DisplayText(self.window, (20, 560),
                                                   'Mines left:', fontSize=36)
@@ -55,7 +55,7 @@ class Game():
                 self.board[rowIndex][colIndex].reset()
         self.gameOver = False
         self.timerRunning = False
-        self.nMinesLeft = N_MINES
+        self.nMinesFlagged = 0
         self.oTimeDisplay.setValue(0)
         self.firstClick = True
         self.gameOver = False
@@ -82,13 +82,14 @@ class Game():
 
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
-                self.helperMode = not self.helperMode  #  Cheat code!
+                self.debug = not self.debug  #  Cheat code!
 
             if event.key == pygame.K_0:  # for debugging, print out the board
                 print('--- Board ------')
                 for row in range(N_ROWS):
                     for col in range(N_COLS):
                         oCell = self.board[row][col]
+                        #print(oCell)  # shows detailed info about a cell (for debugging)
                         value = oCell.getValue()
                         if value == MINE:
                             value = 'm'  # for easier reading
@@ -123,7 +124,7 @@ class Game():
                         self.timerRunning = True
                         self.firstClick = False
 
-                    result = oCellClicked.handleClick(leftOrRight, self.helperMode)
+                    result = oCellClicked.handleClick(leftOrRight, self.debug)
                     if result == HIT_MINE:
                         Cell.explosionSound.play()
                         self.gameOver = True
@@ -131,7 +132,7 @@ class Game():
                             for col in range(0, N_COLS):
                                 oCell = self.board[row][col]
                                 oCell.showIfMine(UNEXPLODED)  # show black mines
-                        oCellClicked.showIfMine(EXPLODED)  # show red mine that ended the game
+                        oCellClicked.showIfMine(EXPLODED)  # show exploded mine that ended the game
                         self.oTimer.stop()
                         return
 
@@ -144,30 +145,32 @@ class Game():
                     else:
                         raise ValueError('Unexpected result from click: ' + str(result))
 
-            nFlags = 0
+            self.nMinesFlagged = 0
             for rowIndex in range(0, N_ROWS):
                 for colIndex in range(0, N_COLS):
                     oCell = self.board[rowIndex][colIndex]
                     if oCell.isFlagged():
-                        nFlags = nFlags + 1
-            self.nMinesLeft = N_MINES - nFlags
+                        self.nMinesFlagged = self.nMinesFlagged + 1
+            nMinesLeft = N_MINES - self.nMinesFlagged
 
-            self.checkForWin()
+            self.checkForWin(nMinesLeft)
 
 
-    def checkForWin(self):
-        if self.nMinesLeft != 0:
+    def checkForWin(self, nMinesLeftToFind):
+        if nMinesLeftToFind != 0:
             return  # Not cleared all mines
         for rowIndex in range(0, N_ROWS):
             for colIndex in range(0, N_COLS):
                 oCell = self.board[rowIndex][colIndex]
                 if oCell.isHidden():  # if any cell is hidden, then no win
-                    return False
+                    print('Check for win returning because cell', rowIndex, colIndex, 'is hidden')
+                    return
+                
        # Game is over - player wins!!
         self.applauseSound.play()
         self.gameOver = True
         self.oTimer.stop()
-        return True
+        return
 
 
     def revealNeighbors(self, oCenterCell):
@@ -191,7 +194,7 @@ class Game():
 
                    
     def update(self):
-        self.oMinesLeftDisplay.setValue(self.nMinesLeft)
+        self.oMinesLeftDisplay.setValue(N_MINES -  self.nMinesFlagged)
         if self.timerRunning:
             formattedTime = self.oTimer.getTimeInHHMMSS()
             self.oTimeDisplay.setValue(formattedTime)
