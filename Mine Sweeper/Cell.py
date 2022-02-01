@@ -82,19 +82,19 @@ class Cell():
         return self.neighborsList
 
     def handleClick(self, leftOrRightClick, debug):
+        if debug:  # Debugging, check if the cell is a mine
+            if self.value == MINE:
+                Cell.dingSound.play()
+            else:
+                Cell.buzzSound.play()
+            return  None # End debugging
+
         if self.revealed:
             return None # already showing
         if leftOrRightClick == LEFT_CLICK: # Left mouse button
             #print('Hit cell', self.rowIndex, self.colIndex)
             if self.flagged:
                 return None  # Must "unflag" before revealing
-
-            if debug:  # Debugging, check if the cell is a mine
-                if self.value == MINE:
-                    Cell.dingSound.play()
-                else:
-                    Cell.buzzSound.play()
-                return  # End debugging
 
             self.revealed = True
             self.images.replace(self.value)

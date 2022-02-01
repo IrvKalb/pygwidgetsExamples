@@ -162,8 +162,8 @@ class Game():
         for rowIndex in range(0, N_ROWS):
             for colIndex in range(0, N_COLS):
                 oCell = self.board[rowIndex][colIndex]
-                if oCell.isHidden():  # if any cell is hidden, then no win
-                    print('Check for win returning because cell', rowIndex, colIndex, 'is hidden')
+                if oCell.isHidden():  # if any cell is still hidden, then not a win
+                    # DEBUGGING: print('Check for win returning because cell', rowIndex, colIndex, 'is hidden')
                     return
                 
        # Game is over - player wins!!
