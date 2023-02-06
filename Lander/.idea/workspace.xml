@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a0e8442-29cc-4cdb-9af2-3ab44e20c876" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/untitled folder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lander.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lander.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RollThemDice/Main_RollThemDice.py" afterDir="false" />
-    </list>
+    <list default="true" id="8a0e8442-29cc-4cdb-9af2-3ab44e20c876" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

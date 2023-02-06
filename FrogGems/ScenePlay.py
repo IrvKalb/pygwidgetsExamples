@@ -112,7 +112,7 @@ class ScenePlay(pyghelpers.Scene):  # Inherits from the Scene class in the Scene
         if self.nLives == 0:  # End game
             self.loseSound.play()
             answer = pyghelpers.textYesNoDialog(self.window, (100, 100, 300, 200), 'Game Over\n\nPlay Again?', \
-                                            trueButtonText='Yes', falseButtonText='No')
+                                            yesButtonText='Yes', noButtonText='No')
             if answer:
                 self.reset()
                 return

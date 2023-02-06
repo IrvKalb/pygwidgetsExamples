@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/OO BlackJack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackJack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/Endless Corridor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Endless Corridor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/Main_FrogGems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneExample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneHighScores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/ScenePlay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FrogGems/SceneSplash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/OO Dodger from Al.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathTower/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MathTower/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/MemoryGame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TargetPractice/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

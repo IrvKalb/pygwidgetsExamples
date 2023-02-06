@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hangman/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/Hangman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/Hangman.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/Main_Hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Main_Hangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OO Dodger from Al.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_RollThemDice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main_RollThemDice.py" afterDir="false" />
-    </list>
+    <list default="true" id="1d88c24f-d9e8-46d7-8384-94c4a419867f" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

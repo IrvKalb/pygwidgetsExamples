@@ -6,6 +6,7 @@ import sys
 import random
 import pygwidgets
 import pyghelpers
+from FileReadWrite import *
 
 
 BLACK = (0, 0, 0)
@@ -390,8 +391,8 @@ DATA_FILE_PATH = 'LanderData.txt'
 
 # Data file will be made of two entries - separated by a comma:
 #  <softestSoFar>,<fastestSoFar>
-if pyghelpers.fileExists(DATA_FILE_PATH):
-    savedDataString = pyghelpers.readFile(DATA_FILE_PATH)
+if fileExists(DATA_FILE_PATH):
+    savedDataString = readFile(DATA_FILE_PATH)
     savedDataList = savedDataString.split(',') 
     softestSoFar = float(savedDataList[0])
     fastestSoFar = float(savedDataList[1])
