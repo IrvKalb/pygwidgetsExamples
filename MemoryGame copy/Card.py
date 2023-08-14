@@ -8,19 +8,18 @@ import pygwidgets
 class Card():
     WIDTH = 54
     HEIGHT = 54
-    # So we can only have to load the back image once
-    BACK_OF_CARD_IMAGE = pygame.image.load('images/cardBack.png')
 
     def __init__(self, window, locX, locY):
         self.window = window
         self.locTuple = (locX, locY)
         self.rect = pygame.Rect(locX, locY, Card.WIDTH, Card.HEIGHT)
+        cardBackPath = 'images/cardBack.png'
+        self.oBackImage = pygwidgets.Image(self.window, self.locTuple, cardBackPath)
 
     def reset(self, value):
         self.cardValue = value
         cardPath = 'images/card' + str(self.cardValue) + '.png'
         self.oFrontImage = pygwidgets.Image(self.window, self.locTuple, cardPath)
-        self.oBackImage = pygwidgets.Image(self.window, self.locTuple, Card.BACK_OF_CARD_IMAGE)
         self.hide()
 
     def hide(self):
